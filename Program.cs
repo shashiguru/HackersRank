@@ -1,13 +1,15 @@
 ﻿using System;
 
-namespace HackersRank
+namespace HackerRank
 {
     class Program
     {
         static void Main(string[] args)
         {
             FindPairsInList fa = new FindPairsInList();
-            Console.WriteLine(fa.FindPairs(9, new int[] { 10, 20 ,20, 10 ,10 ,30 ,50, 10, 20 }));
+            fa.FindPairs(5, new int[] { 1, 2, 3, 1, 2 });
+            CountingValleys cv = new CountingValleys();
+            Console.WriteLine(cv.FindNoOfValleys(8, "UDDUUDDU") );
             Console.Read();
         }
     }
